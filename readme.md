@@ -4,6 +4,8 @@
 
 A plain-PHP/XAMPP control panel for a Bitcoin Core \*\*regtest\*\* node on Windows 11.
 
+<img src="images/screenshot.png" width="400" alt="Ride The Regtest Screenshot">
+
 
 
 \- PHP 8 + Apache + cURL

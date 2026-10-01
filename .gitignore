@@ -1,3 +1,4 @@
 
 .env
 regtest-seed.txt
+data/regtest/
