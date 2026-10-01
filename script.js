@@ -176,8 +176,7 @@ const $ = (id) => document.getElementById(id);
             setText('wallet-unconfirmed', '—');
             setText('wallet-status', 'Node offline');
             renderWallets([]);
-            $('immature-card').classList.remove('attention');
-            return;
+                        return;
         }
 
         nodeIsOnline = true;
@@ -201,15 +200,13 @@ const $ = (id) => document.getElementById(id);
             setText('stat-immature', btcText(wallet.immature_balance));
             setText('wallet-name', status.miner_wallet || '—');
             setText('wallet-unconfirmed', btcText(wallet.unconfirmed_balance));
-            $('immature-card').classList.toggle('attention', !isZeroAmount(wallet.immature_balance));
-        } else {
+                    } else {
             setText('stat-balance', '—');
             setText('send-balance', '—');
             setText('stat-immature', '—');
             setText('wallet-name', status.miner_wallet || '—');
             setText('wallet-unconfirmed', '—');
-            $('immature-card').classList.remove('attention');
-        }
+                    }
 
         setText(
             'wallet-status',
