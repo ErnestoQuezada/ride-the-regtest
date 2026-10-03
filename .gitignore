@@ -2,3 +2,8 @@
 .env
 regtest-seed.txt
 data/regtest/
+*.exe
+node_modules/
+config/config.json
+data/bitcoin.conf
+data/logs/

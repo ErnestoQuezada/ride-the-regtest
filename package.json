@@ -1,0 +1,25 @@
+{
+  "name": "regtest-panel",
+  "version": "1.0.0",
+  "description": "\\# Regtest Control Panel",
+  "main": "rtrt.js",
+  "scripts": {
+    "start": "node rtrt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestoQuezada/ride-the-regtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ErnestoQuezada/ride-the-regtest/issues"
+  },
+  "homepage": "https://github.com/ErnestoQuezada/ride-the-regtest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

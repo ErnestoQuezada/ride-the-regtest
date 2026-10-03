@@ -46,7 +46,7 @@ const $ = (id) => document.getElementById(id);
     }
 
     async function api(action, payload = {}) {
-        const response = await fetch('api.php', {
+        const response = await fetch('/api', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
