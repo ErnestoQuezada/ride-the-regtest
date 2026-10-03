@@ -2,7 +2,7 @@
 
 A Node.js-based control panel for a Bitcoin Core **regtest** node on Windows.
 
-<img src="images/screenshot.png" width="400" alt="Ride The Regtest Screenshot">
+<img src="images/screenshot.png" width="550" alt="Ride The Regtest Screenshot">
 
 - Built with Node.js and Express
 - Simple zero-dependency architecture
